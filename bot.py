@@ -21,7 +21,7 @@ limit = 20
 
 prefix = ["$"]
 
-TOKEN = os.getenv("ODYwNjY1NTk2NzE4NDgxNDM4.YN-jTA.NBcmI6exuHZ4SggjIe_P8bwaK_Y")
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 start_time = datetime.datetime.utcnow()
 
@@ -733,4 +733,4 @@ async def guildinfo(ctx):
     embed.set_image(url=ctx.guild.icon_url)
     await ctx.send(embed=embed)
 
-bot.run("")
+bot.run("ODYwNjY1NTk2NzE4NDgxNDM4.YN-jTA.NBcmI6exuHZ4SggjIe_P8bwaK_Y")
