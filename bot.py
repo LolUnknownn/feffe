@@ -21,7 +21,7 @@ limit = 20
 
 prefix = ["$"]
 
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("ODYwNjY1NTk2NzE4NDgxNDM4.YN-jTA.NBcmI6exuHZ4SggjIe_P8bwaK_Y")
 
 start_time = datetime.datetime.utcnow()
 
